@@ -1,0 +1,187 @@
+@charset "UFT-8";
+
+@import url("https://fonts.googleapis.com/css2?family=bebas+neve&display=swap");
+
+@font-face {
+        font-family: 'Android'   ;
+        src: url("../fontes/idroid.otf")format("opentype")
+       
+ } 
+ :root {
+    --cor0: #c5ebd6;
+    --cor1: #83elad;
+    --cor2: #3ddc84;
+    --cor3: #2faB66;
+    --cor4: #la5c37;
+    --cor5: #063dle;  
+    
+    --fonte-padrao: Arial,verdana,helvetica,sans-serif;
+    --fonte-destaque: "Bebas Neve", Cursive;
+    --fonte-android: "android",cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header{  
+    background-image: linear-gradient(to bottom, #52bd7f ,  #0f4126  );
+    min-height:150px ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+header > h1 {
+      text-align: center;
+      color: antiquewhite; 
+      font-family:  var(--fonte-destaque);
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);  } 
+  
+  header p {
+    padding-bottom: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+       color:antiquewhite;
+       text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322); 
+
+
+  } */
+  header{   
+    background-image: linear-gradient(to bottom, #52bd7f ,  #0f4126  );
+    min-height:150px ;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+body{
+    height: 100%;
+}
+
+header > h1 {
+      text-align: center;
+      color: antiquewhite; 
+      font-family:  var(--fonte-destaque);
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.507);  } 
+  
+  header p {
+    padding-bottom: 10px;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+       color:antiquewhite;
+       text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.322); 
+
+
+  }
+ 
+ 
+  nav{
+    padding-top: 0px;
+    background-color: #0f4126;
+    padding: 10px;
+    box-shadow: -2px 5px 4px 2px rgba(0, 0, 0, 0.568) ;
+}
+nav a {
+    color: antiquewhite;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+    
+ 
+}
+
+nav > a:hover{
+    background-color: #2faB66;
+    color: #317e51;
+}
+
+
+#bala {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(pi.PNG);
+    background-position:  center;
+    background-color: #0f412695;
+    height: 500px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+   
+}
+#bala p{
+    margin: auto;
+    margin-top: 100px;
+    
+}
+div#bala1 p{
+    background-color: #0f412695;
+    height: 260px;
+    margin: auto;
+}
+#bala0 p{
+    background-color: #0f412695;
+    height: 250px;
+    width: 180px;
+    padding: 20px;
+    margin: auto;
+
+}
+
+div{
+   
+    padding-top: 10vh;
+    padding-bottom: 50px;
+    line-height: 2em;
+    padding-left: 30px;
+    
+ }
+
+ 
+
+
+div p {
+       background-color: rgba(165, 245, 205, 0.355);
+       height: 200px;
+       width: 150px;
+       padding: 10px;
+       padding: 2em;
+      
+}
+
+main{
+    margin-top: 0px;
+    height: 100%;
+}
+div p{
+    text-align: center;
+}
+main p{
+    padding-bottom: 50px;
+  
+}
+
+main h2{
+   font-family: var(--fonte-android);
+   padding: 20px;
+   color: #0f4126;
+}
+.dodo{
+    padding: 10px;
+}
+
+footer{
+    background-color: #0f4126;
+    text-align: center;
+}
