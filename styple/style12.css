@@ -117,23 +117,28 @@ nav > a:hover{
     height: 500px;
     width: 100%;
     margin: auto;
-    padding: 20px;
+  
    
 }
 #bala p{
     margin: auto;
+    border-radius: 20px;
+    width: 40vh;
     margin-top: 100px;
     
 }
 div#bala1 p{
     background-color: #0f412695;
-    height: 260px;
+    height: 248px;
+    border-radius: 20px;
+    width: 40vh;
     margin: auto;
 }
 #bala0 p{
     background-color: #0f412695;
     height: 250px;
-    width: 180px;
+    width: 40vh;
+    border-radius: 20px;
     padding: 20px;
     margin: auto;
 
@@ -144,7 +149,7 @@ div{
     padding-top: 10vh;
     padding-bottom: 50px;
     line-height: 2em;
-    padding-left: 30px;
+  
     
  }
 
@@ -157,6 +162,7 @@ div p {
        width: 150px;
        padding: 10px;
        padding: 2em;
+       text-align: justify;
       
 }
 
@@ -164,9 +170,7 @@ main{
     margin-top: 0px;
     height: 100%;
 }
-div p{
-    text-align: center;
-}
+
 main p{
     padding-bottom: 50px;
   
@@ -184,4 +188,25 @@ main h2{
 footer{
     background-color: #0f4126;
     text-align: center;
+}
+
+@media  screen and (orientation: landscape) {
+    main{
+        background-color: brown;
+        position: relative;
+    }
+
+    div#bala{
+        
+
+    }
+    div#bala1{
+       
+    }
+    div#bala0{
+        position: absolute;
+        left: 500px;
+        top: 70px;
+        
+    }
 }

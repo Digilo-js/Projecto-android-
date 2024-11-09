@@ -217,6 +217,11 @@ strong{
     font-family:var(--fonte-android);
 }
 
+footer h1{
+    padding: 10px;
+    font-weight: bold;
+}
+
 footer{
     background-color: #0f4126;
     text-align: center;
